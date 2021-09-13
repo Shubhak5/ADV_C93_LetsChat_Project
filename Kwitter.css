@@ -1,0 +1,21 @@
+      body {
+          text-align: center;
+          height: 100%;
+          background-color: burlywood;
+          /* background-image: url("http://static.facegfx.com/vector/2013/12/17/facegfx-vector-3d-paper-background-vector-design-01.jpg");*/
+      }
+      
+      #header {
+          font-size: 30px;
+          font-family: cursive;
+          color: blueviolet;
+      }
+      
+      #user_name {
+          width: 40%;
+          margin-left: 400px;
+      }
+      
+      #btnLogIn {
+          margin: 20px;
+      }
