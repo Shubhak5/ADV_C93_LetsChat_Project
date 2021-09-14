@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kwitter Room</title>
+
+    <!--Google Font-->
+    <link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap CSS and JS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <!--Firebase Links-->
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="Kwitter_Room.css">
+    <script src="Kwitter_Room.js"></script>
+</head>
+
+<body>
+    <div id="divLogout">
+        <button id="btnLogOut" class="glyphicon glyphicon-log-out btn-danger" onclick="userLogOut();">Logout</button>
+    </div>
+
+    <center>
+        <div id="divChat">
+            <h1 id="header"> Lets Chat !! <span><i class="fa fa-comment"></i></span>
+            </h1>
+
+            <h3 id="welcomeUser" style="color:darkorange;font-weight: bold;"> Welcome </h3>
+            <h4 style="font-weight: bold;">#Add Room : </h4>
+            <input id="inptRoomName" class="form-control" type="text" placeholder="#Room Name">
+            <button id="btnAddRoom" class="btn btn-success" type="button" onclick="addRoom();">  #Add Room</button>
+            <h3 class="tex-capitalize" style="color:teal;font-weight: bold;">#TredingRooms</h3>
+            <div id="divTredingRooms" class="bg-success">hi</div>
+        </div>
+    </center>
+</body>
+
+</html>

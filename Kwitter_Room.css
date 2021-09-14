@@ -1,0 +1,46 @@
+        body {
+            background: linear-gradient(#c8cfdb 0%, #9ea6ad 100%);
+            background-repeat: no-repeat;
+            height: 100%;
+        }
+        
+        #divLogout {
+            top: 0px;
+        }
+        
+        #divChat {
+            padding-top: 200px;
+        }
+        
+        #btnLogOut {
+            float: right;
+            height: 50px;
+            width: 70px;
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid darkred;
+            border-radius: 20px;
+        }
+        
+        #header {
+            color: darkorchid;
+            font-family: cursive;
+        }
+        
+        #inptRoomName {
+            border-radius: 20px;
+            border: 1px solid grey;
+            width: 40%;
+            padding: 5px;
+        }
+        
+        #btnAddRoom {
+            margin: 10px;
+        }
+        
+        #divTredingRooms {
+            text-align: center;
+            width: 50%;
+            border-radius: 30px;
+            font-size: 20px;
+        }
