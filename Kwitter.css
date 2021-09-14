@@ -1,21 +1,33 @@
       body {
-          text-align: center;
-          height: 100%;
-          background-color: burlywood;
-          /* background-image: url("http://static.facegfx.com/vector/2013/12/17/facegfx-vector-3d-paper-background-vector-design-01.jpg");*/
+          background: linear-gradient(#c8cfdb 0%, #9ea6ad 100%);
       }
       
-      #header {
-          font-size: 30px;
-          font-family: cursive;
-          color: blueviolet;
+      #imgSideBg {
+          height: 650px;
+          width: 400px;
       }
       
-      #user_name {
-          width: 40%;
-          margin-left: 400px;
+      .div_Login {
+          padding-top: 200px;
       }
       
       #btnLogIn {
-          margin: 20px;
+          background-color: #55cc23;
+          color: white;
+          border: 1px solid white;
+          border-radius: 10px;
+          padding: 10px;
+      }
+      
+      #header {
+          font-size: 40px;
+          font-family: cursive;
+          color: blueviolet;
+          margin-bottom: 50px;
+      }
+      
+      #user_name {
+          width: 30%;
+          border-radius: 10px;
+          border: 1px solid gr;
       }
