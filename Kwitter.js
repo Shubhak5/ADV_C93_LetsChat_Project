@@ -1,3 +1,4 @@
+// Import the functions you need from the SDKs you need
 const firebaseConfig = {
     apiKey: "AIzaSyBXDVTBktc-J0p_ucnik536gNQQtL92INY",
     authDomain: "kwitter-18123.firebaseapp.com",
@@ -14,8 +15,7 @@ firebase.initializeApp(firebaseConfig);
 
 function addUser() {
     user_name = document.getElementById("user_name").value;
-    firebase.database().ref("/").child(user_name).update({ purpose: "Adding User" });
 
-
-    window.location = "Kwitter_Room.html";
+    localStorage.setItem("UserName", user_name);
+    window.location = "Kwitter_room.html";
 }
