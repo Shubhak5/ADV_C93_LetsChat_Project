@@ -1,0 +1,17 @@
+body {
+    background-color: #c8cfdb;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+h4 img {
+    width: 30px;
+    height: 30px;
+}
+
+#msg {
+    width: 50%;
+    margin: 20px;
+    border: 1px solid #9ea6ad;
+    border-radius: 20px;
+}

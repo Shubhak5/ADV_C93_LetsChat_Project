@@ -24,7 +24,7 @@
          purpose: "Adding Room Name"
      });
      localStorage.setItem("RoomName", room_name);
-     window.location = "Kwitter_Message.html";
+     // window.location = "Kwitter_Message.html";
  }
 
  function getData() {
