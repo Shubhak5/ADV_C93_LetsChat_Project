@@ -45,6 +45,6 @@
 
  function redirectToRoomName(name) {
      console.log(name);
-     localStorage.setItem("room_name", name);
+     localStorage.setItem("RoomName", name);
      window.location = "Kwitter_Message.html";
  }
